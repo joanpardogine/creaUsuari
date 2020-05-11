@@ -6,6 +6,7 @@
 # $@  <- llistat de paràmetres
 # $#  <- quantitat de paràmetres
 #  si $# = 0 -> error
+# branca gestioNomUsuari faré control del nom
 clear
 # INICI comprovació de quantitat de parametres
 if [ $# = 0 ];   #si $# = 0 --> no han passat cap paràmetre
