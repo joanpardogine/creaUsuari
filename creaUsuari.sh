@@ -10,6 +10,7 @@ clear
 # INICI comprovació de quantitat de parametres
 if [ $# = 0 ];   #si $# = 0 --> no han passat cap paràmetre
  then
+   echo "No has introduit cap paràmetre!"
    echo "Cal que entris la informació com a paràmetres!"
    echo "1r paràmetre el nom de l'usuari a donar d'alta"
    echo "2n paràmetre el nom del grup del nou usuari a donar d'alta [OPCIONAL]"
@@ -19,13 +20,13 @@ else              #  si $# != 0 --> han passat 1 o més paràmetres
       then
          nomUsuari=$1;    # el 1r paràmetre com a nomUsuari
          nomGrup=$1;      # el 1r paràmetre com a nomGrup
-         echo "1 Paràmetre!"
+         echo "Has introduit 1 Paràmetre!"
          echo "Nom usuari = " $nomUsuari
          echo "Nom grup = " $nomGrup
       else        #  si $# != 1 --> han passat més d'1 paràmetre
          nomUsuari=$1;    # el 1r paràmetre com a nomUsuari
          nomGrup=$2;      # el 2n paràmetre com a nomGrup
-         echo "2 Paràmetres!"
+         echo "Has introduit 2 Paràmetres!"
          echo "Nom usuari = " $nomUsuari
          echo "Nom grup = " $nomGrup
    fi # FINAL if [ $# = 1 ];
