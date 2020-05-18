@@ -9,12 +9,12 @@ OPTIONS="Hola Usuari Shell Surt"
     elif [ "$opt" = "Hola" ]; then
       echo "Hola $USER!"
 
-
     elif [ "$opt" = "Usuari" ]; then
       echo "Et dius $USER!"
 
     elif [ "$opt" = "Shell" ]; then
       echo "Fas servir $SHELL"
+      
     else
       echo "Opció incorrete!"
     fi
