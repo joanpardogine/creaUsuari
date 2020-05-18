@@ -40,6 +40,10 @@ Crearem un script que ens mostrarà un missatge en funció dels paràmetres que 
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat dos paràmetre i
    * enviarem un **codi sortida** **`0`**.
 
+# A collapsible section containing code
+<details>
+  <summary>Fes click per expandir!</summary>
+  
 ```bash
 #!/bin/bash
 # Nom:  creaUsuari_v1.sh
@@ -75,6 +79,8 @@ else       #  si $# != 0 --> han passat 1 o més paràmetres
    fi # FINAL if [ $# = 1 ];
 fi # FINAL comprovació de quantitat de paràmetres
 ```
+
+</details>
 
 [scripts/creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
 
