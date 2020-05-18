@@ -129,7 +129,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$
 <details>
   <summary> fes click per expandir.</summary>
   
-## Explicació per la creació de funcions
+## Creació de funcions
 
 Com en gairebé qualsevol llenguatge de programació, podeu utilitzar funcions per agrupar trossos de codi d’una manera més lògica o practicar l’art diví de la recursió.
 
@@ -140,7 +140,8 @@ Declarar una funció només és qüestió d'escriure la funció **`f_nomFuncio {
 Cridar a una funció és com cridar a un altre programa, només cal escriure el seu nom.
 
 ```
-#!/bin/bash 
+#!/bin/bash
+# Nom:  f_creaFuncions.sh
   function f_acaba {
       exit
    }
@@ -166,6 +167,7 @@ En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_
 
 ```
 #!/bin/bash
+# Nom:  f_creaFunAmbParam.sh
   function f_acaba {
     exit
   }
@@ -183,5 +185,38 @@ En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_
 Aquest **`script`** és gairebé idèntic a l’anterior. La diferència principal és el funcionament **`f_mostra`**. Aquesta funció imprimeix el primer argument que rep. Els arguments, dins de funccions, es tracten de la mateixa manera que els arguments que es proporcionen a un **`script`**.
 
 
-Interfícies d’usuari
+## Interfícies d'usuari
+
+Ús de selecció per fer menús senzills
+```
+#!/bin/bash
+# Nom:  f_interficiesUsuari.sh
+OPTIONS="Hola Surt"
+  select opt in $OPTIONS; do
+    if [ "$opt" = "Surt" ]; then
+      echo fet!
+      exit
+    elif [ "$opt" = "Hola" ]; then
+      echo "Hola món!"
+    else
+      clear
+      echo "Opció incorrete!"
+    fi
+  done
+```
+
+Si executeu aquest **`script`**, veureu que és un record del programador per als menús basats en text. Probablement notareu que és molt semblant a la construcció **`for`**, només en lloc de fer un loop per cada "paraula" en $ OPTIONS, que demana a l'usuari.
+
+### Ús de la línia d’ordres
+          #!/bin/bash        
+          if [ -z "$1" ]; then 
+              echo usage: $0 directory
+              exit
+          fi
+          SRCD=$1
+          TGTD="/var/backups/"
+          OF=home-$(date +%Y%m%d).tgz
+          tar -cZf $TGTD$OF $SRCD
+         
+El que fa aquest script ha de ser clar per a vosaltres. L'expressió de les primeres proves condicionals si el programa ha rebut un argument ($ 1) i deixa de no fer-ho, mostrant a l'usuari un petit missatge d'ús. La resta del guió hauria de ser clar en aquest moment.
 </details>
