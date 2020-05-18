@@ -29,6 +29,9 @@ En el cas en el que l’usuari ens faciliti com a nom del nou usuari el d’un u
 I enviarem un Codi de Sortida amb un valor de **`2`**.
 
 # Primera versió **`creaUsuari_v1.sh`**
+
+<details>
+  <summary> fes click per expandir.</summary>
 Crearem un script que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
 
 És a dir:
@@ -42,8 +45,7 @@ Crearem un script que ens mostrarà un missatge en funció dels paràmetres que 
 
 ---- 
 ### Ves a l'`script` [creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
-<details>
-  <summary> o fes click per expandir.</summary>
+
   
 ```bash
 #!/bin/bash
@@ -117,4 +119,13 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$ echo $?
 joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
+</details>
+
+
+# Creació de funcions
+<details>
+  <summary> fes click per expandir.</summary>
+  
+## Explicació per la creació de funcions
+
 </details>
