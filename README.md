@@ -88,7 +88,7 @@ fi # FINAL comprovació de quantitat de paràmetres
 
 ## Execució de l'**`script`** sense cap paràmetre.
 Cal que torni un **Codi de Sortida** **`0`**. 
-```
+```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh
 Cal que entris la informació com a paràmetres!
 1r paràmetre el nom de l'usuari a donar d'alta
@@ -100,7 +100,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$
 -----------
 ## Execució de l'**`script`** amb un sol paràmetre
 Cal que torni un **Codi de Sortida** **`1`**. 
-```
+```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1
 1 Paràmetre!
 Nom usuari =  param1
@@ -112,7 +112,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$
 -----------
 ## Execució de l'**`script`** amb un sol paràmetre
 Cal que torni un **Codi de Sortida** **`0`**. 
-```
+```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1  param2
 2 Paràmetres!
 Nom usuari =  param1
@@ -139,7 +139,7 @@ Declarar una funció només és qüestió d'escriure la funció **`f_nomFuncio {
 
 Cridar a una funció és com cridar a un altre programa, només cal escriure el seu nom.
 
-```
+```bash
 #!/bin/bash
 # Nom:  f_creaFuncions.sh
   function f_acaba {
@@ -165,7 +165,7 @@ En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_
 
 ### Mostra de funció amb mostra de paràmetres
 
-```
+```bash
 #!/bin/bash
 # Nom:  f_creaFunAmbParam.sh
   function f_acaba {
@@ -188,7 +188,7 @@ Aquest **`script`** és gairebé idèntic a l’anterior. La diferència princip
 ## Interfícies d'usuari
 
 Ús de selecció per fer menús senzills
-```
+```bash
 #!/bin/bash
 # Nom:  f_interficiesUsuari.sh
 OPTIONS="Hola Surt"
@@ -207,16 +207,19 @@ OPTIONS="Hola Surt"
 
 Si executeu aquest **`script`**, veureu que és un record del programador per als menús basats en text. Probablement notareu que és molt semblant a la construcció **`for`**, només en lloc de fer un loop per cada "paraula" en $ OPTIONS, que demana a l'usuari.
 
-### Ús de la línia d’ordres
-          #!/bin/bash        
-          if [ -z "$1" ]; then 
-              echo usage: $0 directory
-              exit
-          fi
-          SRCD=$1
-          TGTD="/var/backups/"
-          OF=home-$(date +%Y%m%d).tgz
-          tar -cZf $TGTD$OF $SRCD
-         
+### Ús de la línia de comandes
+
+```bash
+#!/bin/bash        
+if [ -z "$1" ]; then 
+  echo usage: $0 directory
+  exit
+fi
+SRCD=$1
+TGTD="/var/backups/"
+OF=home-$(date +%Y%m%d).tgz
+tar -cZf $TGTD$OF $SRCD
+```
+
 El que fa aquest script ha de ser clar per a vosaltres. L'expressió de les primeres proves condicionals si el programa ha rebut un argument ($ 1) i deixa de no fer-ho, mostrant a l'usuari un petit missatge d'ús. La resta del guió hauria de ser clar en aquest moment.
 </details>
