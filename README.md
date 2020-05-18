@@ -33,11 +33,12 @@ Crearem un script que ens mostrarà un missatge en funció dels paràmetres que 
 
 És a dir:
 
-tornarà un missatge d’ajuda si no ens ha facilitat cap paràmetre i enviarem un codi sortida **`1`**,
-
-tornarà un missatge indicant el nom d’usuari i el nom del grup si només ens ha facilitat un paràmetre i enviarem un codi sortida **`0`**.
-
-tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat dos paràmetre i enviarem un codi sortida **`0`**.
+1. tornarà un missatge d’ajuda si no ens ha facilitat cap paràmetre i
+   * enviarem un **codi sortida** **`1`**,
+1. tornarà un missatge indicant el nom d’usuari i el nom del grup si només ens ha facilitat un paràmetre i
+   * enviarem un **codi sortida** **`0`**.
+1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat dos paràmetre i
+   * enviarem un **codi sortida** **`0`**.
 
 ```bash
 #!/bin/bash
@@ -74,4 +75,6 @@ else       #  si $# != 0 --> han passat 1 o més paràmetres
    fi # FINAL if [ $# = 1 ];
 fi # FINAL comprovació de quantitat de paràmetres
 ```
+
+[scripts/creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
 
