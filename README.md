@@ -11,6 +11,8 @@ En el cas en que es rebin dos paràmetres, o més, es considerarà que el primer
 
 
 # Codis de sortida
+<details>
+  <summary> fes click per expandir.</summary>
 En qualsevol dels casos, caldrà comprovar si el nom del nou usuari i el nom del grup rebut existeixen.
 
 ## Codi de Sortida => **`0`**
@@ -27,6 +29,7 @@ I enviarem un Codi de Sortida amb un valor d’**`1`**.
 En el cas en el que l’usuari ens faciliti com a nom del nou usuari el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
 I enviarem un Codi de Sortida amb un valor de **`2`**.
+</details>
 
 # Primera versió **`creaUsuari_v1.sh`**
 
