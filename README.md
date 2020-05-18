@@ -234,5 +234,31 @@ echo "OF= $OF"
 ```
 Mostra el fitxer [f_usLiniaComandes.sh](scripts/f_usLiniaComandes.sh)
 
+
+Per veure que fa aquest **`script`** farem servir el **`debugger`** de **`bash`**. **`bash -x`**
+
+```bash
+joanpardo@daw1sisinfuf01:~/bin/pract4$ bash -x f_usLiniaComandes.sh
++ '[' -z '' ']'
++ echo executant f_usLiniaComandes.sh
+executant f_usLiniaComandes.sh
++ exit
+joanpardo@daw1sisinfuf01:~/bin/pract4$ bash -x f_usLiniaComandes.sh hola
++ '[' -z hola ']'
++ SRCD=hola
++ TGTD=/var/backups/
+++ date +%Y%m%d
++ OF=home-20200518.tgz
++ echo 'SRCD= hola'
+SRCD= hola
++ echo 'TGTD= /var/backups/'
+TGTD= /var/backups/
++ echo 'OF=home-$(date +%Y%m%d).tgz'
+OF=home-$(date +%Y%m%d).tgz
++ echo 'OF= home-20200518.tgz'
+OF= home-20200518.tgz
+```
+
+
 El que fa aquest script ha de ser clar per a vosaltres. L'expressió de les primeres proves condicionals si el programa ha rebut un argument ($ 1) i deixa de no fer-ho, mostrant a l'usuari un petit missatge d'ús. La resta del guió hauria de ser clar en aquest moment.
 </details>
