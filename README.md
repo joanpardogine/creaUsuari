@@ -260,5 +260,7 @@ OF= home-20200518.tgz
 ```
 
 
-El que fa aquest script ha de ser clar per a vosaltres. L'expressió de les primeres proves condicionals si el programa ha rebut un argument ($ 1) i deixa de no fer-ho, mostrant a l'usuari un petit missatge d'ús. La resta del guió hauria de ser clar en aquest moment.
+get it from: https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
+
+
 </details>
