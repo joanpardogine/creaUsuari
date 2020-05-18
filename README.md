@@ -86,6 +86,8 @@ else       #  si $# != 0 --> han passat 1 o més paràmetres
 fi # FINAL comprovació de quantitat de paràmetres
 ```
 
+
+
 ## Execució de l'**`script`** sense cap paràmetre.
 Cal que torni un **Codi de Sortida** **`0`**. 
 ```bash
@@ -155,6 +157,8 @@ Cridar a una funció és com cridar a un altre programa, només cal escriure el 
    echo "no surto mai!"
 ```
 
+Mostra el fitxer [f_creaFuncions.sh](scripts/f_creaFuncions.sh)
+
 De les línia **`2`** a la 4 es troba la funció **`f_acaba`**. I de la 5 a  la 7 la funció **`f_hola`**.
 
 Si no esteu del tot segurs del que fa aquest **`script`**, proveu-lo.
@@ -181,6 +185,7 @@ En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_
   f_acaba
    echo "no surto mai!"
 ```
+Mostra el fitxer [f_creaFunAmbParam.sh](scripts/f_creaFunAmbParam.sh)
 
 Aquest **`script`** és gairebé idèntic a l’anterior. La diferència principal és el funcionament **`f_mostra`**. Aquesta funció imprimeix el primer argument que rep. Els arguments, dins de funccions, es tracten de la mateixa manera que els arguments que es proporcionen a un **`script`**.
 
@@ -204,22 +209,30 @@ OPTIONS="Hola Surt"
     fi
   done
 ```
+Mostra el fitxer [f_interficiesUsuari.sh](scripts/f_interficiesUsuari.sh)
 
 Si executeu aquest **`script`**, veureu que és un record del programador per als menús basats en text. Probablement notareu que és molt semblant a la construcció **`for`**, només en lloc de fer un loop per cada "paraula" en $ OPTIONS, que demana a l'usuari.
 
 ### Ús de la línia de comandes
 
 ```bash
-#!/bin/bash        
+#!/bin/bash
+# Nom:  f_usLiniaComandes.sh
 if [ -z "$1" ]; then 
-  echo usage: $0 directory
+  echo executant $0
   exit
 fi
 SRCD=$1
 TGTD="/var/backups/"
 OF=home-$(date +%Y%m%d).tgz
-tar -cZf $TGTD$OF $SRCD
+
+echo "SRCD= $SRCD"
+echo "TGTD= $TGTD"
+echo "OF=home-\$(date +%Y%m%d).tgz"
+echo "OF= $OF"
+# tar -cZf $TGTD$OF $SRCD
 ```
+Mostra el fitxer [f_usLiniaComandes.sh](scripts/f_usLiniaComandes.sh)
 
 El que fa aquest script ha de ser clar per a vosaltres. L'expressió de les primeres proves condicionals si el programa ha rebut un argument ($ 1) i deixa de no fer-ho, mostrant a l'usuari un petit missatge d'ús. La resta del guió hauria de ser clar en aquest moment.
 </details>
