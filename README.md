@@ -78,3 +78,31 @@ fi # FINAL comprovació de quantitat de paràmetres
 
 [scripts/creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
 
+## Execució de l'**`script`** sense cap paràmetre
+```
+joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh
+Cal que entris la informació com a paràmetres!
+1r paràmetre el nom de l'usuari a donar d'alta
+2n paràmetre el nom del grup del nou usuari a donar d'alta [OPCIONAL]
+joanpardo@daw1sisinfuf01:~/bin/pract4$
+```
+-----------
+## Execució de l'**`script`** amb un sol paràmetre
+```
+joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1
+1 Paràmetre!
+Nom usuari =  param1
+Nom grup =  param1
+joanpardo@daw1sisinfuf01:~/bin/pract4$
+```
+-----------
+## Execució de l'**`script`** amb un sol paràmetre
+```
+joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1  param2
+2 Paràmetres!
+Nom usuari =  param1
+Nom grup =  param2
+joanpardo@daw1sisinfuf01:~/bin/pract4$
+```
+-----------
+
