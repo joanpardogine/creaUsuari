@@ -28,7 +28,7 @@ En el cas en el que l’usuari ens faciliti com a nom del nou usuari el d’un u
 
 I enviarem un Codi de Sortida amb un valor de **`2`**.
 
-# Primera versió creaUsuari_v1.sh
+# Primera versió **`creaUsuari_v1.sh`**
 Crearem un script que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
 
 És a dir:
@@ -40,9 +40,8 @@ Crearem un script que ens mostrarà un missatge en funció dels paràmetres que 
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat dos paràmetre i
    * enviarem un **codi sortida** **`0`**.
 
-# A collapsible section containing code
 <details>
-  <summary>Fes click per expandir!</summary>
+  <summary>Fes click per expandir, o ves-hi [scripts/creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh) !</summary>
   
 ```bash
 #!/bin/bash
@@ -82,7 +81,7 @@ fi # FINAL comprovació de quantitat de paràmetres
 
 </details>
 
-[scripts/creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
+
 
 ## Execució de l'**`script`** sense cap paràmetre.
 Cal que torni un **Codi de Sortida** **`0`**. 
