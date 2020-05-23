@@ -11,9 +11,6 @@ En el cas en que es rebin **dos *paràmetres***, o **més de dos *paràmetres***
 
 
 # Codis de sortida
-<details>
-  <summary> fes click per expandir.</summary>
-
 En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
 
 ## Codi de Sortida => ***`0`***
@@ -30,12 +27,9 @@ I enviarem un Codi de Sortida amb un valor d’***`1`***.
 En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
 I enviarem un Codi de Sortida amb un valor de ***`2`***.
-</details>
 
 # Primera versió ***`creaUsuari_v1.sh`***
 
-<details>
-  <summary> fes click per expandir.</summary>
 Crearem un ***```script```*** que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
 
 És a dir:
@@ -47,9 +41,12 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
    * enviarem un **codi sortida** **`0`**.
 
----- 
 ### Ves a l'***```script```*** [creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
-
+<details>
+  <summary>
+    
+ o fes clic per veure l'***```script```*** creaUsuari_v1.sh.
+  </summary>
   
 ```bash
 #!/bin/bash
