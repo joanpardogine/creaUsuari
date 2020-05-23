@@ -16,30 +16,30 @@ En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el n
 ## Codi de Sortida => ***`0`***
 En el cas en el que l’usuari ens faciliti tota la informació i no tinguem cap problema per donar d’alta l’usuari, cap ***paràmetre***, llavors mostrarem un missatge informant de que tot ha anat correctament.
 
-I enviarem un Codi de Sortida amb un valor de ***`0`***.
+I enviarem un ```**Codi de *Sortida***``` amb un valor de ***```0```***.
 
 ## Codi de Sortida => ***`1`***
 En el cas en el que l’usuari no ens faciliti **cap *paràmetre***, llavors mostrarem un missatge d’ajuda, indicant que cal que com a mínim ens faciliti **un *paràmetre***.
 
-I enviarem un Codi de Sortida amb un valor d’***`1`***.
+I enviarem un ```**Codi de *Sortida***``` amb un valor d’***```1```***.
 
 ## Codi de Sortida => ***`2`***
 En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
-I enviarem un Codi de Sortida amb un valor de ***`2`***.
+I enviarem un ```**Codi de *Sortida***``` amb un valor de ***```2```***.
 
-# Primera versió ***`creaUsuari_v1.sh`***
+# Primera versió ***```creaUsuari_v1.sh```***
 
 Crearem un ***```script```*** que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
 
 És a dir:
 
 1. tornarà un missatge d’ajuda si no ens ha facilitat **cap *paràmetre*** i
-   * enviarem un **codi sortida** **`1`**,
+   * enviarem un ```**Codi de *Sortida***``` **```1```**,
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si només ens ha facilitat **un *paràmetre*** i
-   * enviarem un **codi sortida** **`0`**.
+   * enviarem un ```**Codi de *Sortida***``` **```0```**.
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
-   * enviarem un **codi sortida** **`0`**.
+   * enviarem un ```**Codi de *Sortida***``` **```0```**.
 
 ### Ves a l'***```script```*** [creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
 <details>
@@ -87,7 +87,7 @@ fi # FINAL comprovació de quantitat de paràmetres
 
 
 ## Execució de l'***```script```*** sense **cap *paràmetre***.
-Cal que torni un **Codi de Sortida** **`0`**. 
+Cal que torni un ```**Codi de *Sortida***``` **```0```**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh
 Cal que entris la informació com a paràmetres!
@@ -99,7 +99,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
 ## Execució de l'***```script```*** amb **un sol *paràmetre***
-Cal que torni un **Codi de Sortida** **`1`**. 
+Cal que torni un ```**Codi de *Sortida***``` **```1```**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1
 1 Paràmetre!
@@ -111,7 +111,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
 ## Execució de l'**```script```** amb **un sol *paràmetre***
-Cal que torni un **Codi de Sortida** **`0`**. 
+Cal que torni un ```**Codi de *Sortida***``` **```0```**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1  param2
 2 Paràmetres!
