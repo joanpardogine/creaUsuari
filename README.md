@@ -1,19 +1,20 @@
 # Activitat 4: Script per donar d’alta un usuari.
 ## Objectiu
-L’objectiu d’aquesta pràctica és realitzar un **```script```** en **```bash```** per donar d’alta un usuari al sistema operatiu. Aquest **```script```** donarà d’alta el **nou usuari** rebent les dades per paràmetres. Com a mínim rebrà un paràmetre amb el nom d’usuari.
+L’objectiu d’aquesta pràctica és realitzar un **```script```** en **```bash```** per donar d’alta un usuari al sistema operatiu. Aquest **```script```** donarà d’alta el ***nou* usuari** rebent les dades per paràmetres. Com a mínim rebrà **un *paràmetre*** amb el **nom d’usuari**.
 
 Es considerarà els següents escenaris.
-## Escenari 1: Només es rep **un** paràmetre.
-Es considerarà, en aquest cas, que el paràmetre rebut serà el **nom del nou usuari**, i s’assumirà que aquest mateix nom és el **nom del grup** al qual es vol que pertanyi el nou usuari.
+## Escenari 1: Només es rep ```un``` paràmetre.
+Es considerarà, en aquest cas, que el **paràmetre** rebut serà el **nom del *nou* usuari**, i s’assumirà que aquest mateix **paràmetre** és el **nom del grup** al qual es vol que pertanyi el ***nou* usuari**.
 
-## Escenari 2: Se’n reben dos, o més, paràmetres.
-En el cas en que es rebin dos paràmetres, o més, es considerarà que el primer dels paràmetres serà el nom del nou usuari a donar d’alta, i que el segon dels paràmetre, és el nom del grup al qual es vol que pertanyi el nou usuari.
+## Escenari 2: Se’n reben **```dos *paràmetres*```**, o **```més de dos *paràmetres*```**.
+En el cas en que es rebin **```dos *paràmetres*```**, o **```més```**, es considerarà que **el primer dels paràmetres** serà el **```nom  usuari```** a donar d’alta, i que **el segon dels *paràmetres***, és el **```nom del grup```** al qual es vol que pertanyi el ***nou* usuari**.
 
 
 # Codis de sortida
 <details>
   <summary> fes click per expandir.</summary>
-En qualsevol dels casos, caldrà comprovar si el nom del nou usuari i el nom del grup rebut existeixen.
+
+En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
 
 ## Codi de Sortida => **`0`**
 En el cas en el que l’usuari ens faciliti tota la informació i no tinguem cap problema per donar d’alta l’usuari, cap paràmetre, llavors mostrarem un missatge informant de que tot ha anat correctament.
@@ -26,7 +27,7 @@ En el cas en el que l’usuari no ens faciliti cap paràmetre, llavors mostrarem
 I enviarem un Codi de Sortida amb un valor d’**`1`**.
 
 ## Codi de Sortida => **`2`**
-En el cas en el que l’usuari ens faciliti com a nom del nou usuari el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
+En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
 I enviarem un Codi de Sortida amb un valor de **`2`**.
 </details>
