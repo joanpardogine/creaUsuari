@@ -1,6 +1,6 @@
 # Activitat 4: Script per donar d’alta un usuari.
 ## Objectiu
-L’objectiu d’aquesta pràctica és realitzar un **```script```** en **```bash```** per donar d’alta un usuari al sistema operatiu. Aquest **```script```** donarà d’alta el ***nou* usuari** rebent les dades per paràmetres. Com a mínim rebrà **un *paràmetre*** amb el **nom d’usuari**.
+L’objectiu d’aquesta pràctica és realitzar un ***```script```*** en ***```bash```*** per donar d’alta un usuari al sistema operatiu. Aquest ***```script```*** donarà d’alta el ***nou* usuari** rebent les dades per paràmetres. Com a mínim rebrà **un *paràmetre*** amb el **nom d’usuari**.
 
 Es considerarà els següents escenaris.
 ## Escenari 1: Només es rep **un** paràmetre.
@@ -19,24 +19,24 @@ En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el n
 ## Codi de Sortida => ***`0`***
 En el cas en el que l’usuari ens faciliti tota la informació i no tinguem cap problema per donar d’alta l’usuari, cap paràmetre, llavors mostrarem un missatge informant de que tot ha anat correctament.
 
-I enviarem un Codi de Sortida amb un valor de **`0`**.
+I enviarem un Codi de Sortida amb un valor de ***`0`***.
 
-## Codi de Sortida => **`1`**
+## Codi de Sortida => ***`1`***
 En el cas en el que l’usuari no ens faciliti cap paràmetre, llavors mostrarem un missatge d’ajuda, indicant que cal que com a mínim ens faciliti un paràmetre.
 
-I enviarem un Codi de Sortida amb un valor d’**`1`**.
+I enviarem un Codi de Sortida amb un valor d’***`1`***.
 
-## Codi de Sortida => **`2`**
+## Codi de Sortida => ***`2`***
 En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
-I enviarem un Codi de Sortida amb un valor de **`2`**.
+I enviarem un Codi de Sortida amb un valor de ***`2`***.
 </details>
 
-# Primera versió **`creaUsuari_v1.sh`**
+# Primera versió ***`creaUsuari_v1.sh`***
 
 <details>
   <summary> fes click per expandir.</summary>
-Crearem un script que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
+Crearem un ***```script```*** que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
 
 És a dir:
 
@@ -48,7 +48,7 @@ Crearem un script que ens mostrarà un missatge en funció dels paràmetres que 
    * enviarem un **codi sortida** **`0`**.
 
 ---- 
-### Ves a l'`script` [creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
+### Ves a l'***```script```*** [creaUsuari_v1.sh](./scripts/creaUsuari_v1.sh)
 
   
 ```bash
@@ -89,7 +89,7 @@ fi # FINAL comprovació de quantitat de paràmetres
 
 
 
-## Execució de l'**`script`** sense cap paràmetre.
+## Execució de l'***```script```*** sense cap paràmetre.
 Cal que torni un **Codi de Sortida** **`0`**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh
@@ -101,7 +101,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$ echo $?
 joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
-## Execució de l'**`script`** amb un sol paràmetre
+## Execució de l'***```script```*** amb un sol paràmetre
 Cal que torni un **Codi de Sortida** **`1`**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1
@@ -113,7 +113,7 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$ echo $?
 joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
-## Execució de l'**`script`** amb un sol paràmetre
+## Execució de l'**```script```** amb un sol paràmetre
 Cal que torni un **Codi de Sortida** **`0`**. 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ ./creaUsuari_v1.sh param1  param2
@@ -162,11 +162,11 @@ Mostra el fitxer [f_creaFuncions.sh](scripts/f_creaFuncions.sh)
 
 De les línia **`2`** a la 4 es troba la funció **`f_acaba`**. I de la 5 a  la 7 la funció **`f_hola`**.
 
-Si no esteu del tot segurs del que fa aquest **`script`**, proveu-lo.
+Si no esteu del tot segurs del que fa aquest ***```script```***, proveu-lo.
 
 Tingueu en compte que NO cal declarar una funció en cap ordre específic.
 
-En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_hola`**, en segon lloc la funció **`f_acaba`**, i el programa mai arriba a la línia 10.
+En executar l'***```script```***, primer us n’adonareu: la funció s’anomena **`f_hola`**, en segon lloc la funció **`f_acaba`**, i el programa mai arriba a la línia 10.
 
 ### Mostra de funció amb mostra de paràmetres
 
@@ -188,7 +188,7 @@ En executar l'**`script`**, primer us n’adonareu: la funció s’anomena **`f_
 ```
 Mostra el fitxer [f_creaFunAmbParam.sh](scripts/f_creaFunAmbParam.sh)
 
-Aquest **`script`** és gairebé idèntic a l’anterior. La diferència principal és el funcionament **`f_mostra`**. Aquesta funció imprimeix el primer argument que rep. Els arguments, dins de funccions, es tracten de la mateixa manera que els arguments que es proporcionen a un **`script`**.
+Aquest ***```script```*** és gairebé idèntic a l’anterior. La diferència principal és el funcionament **`f_mostra`**. Aquesta funció imprimeix el primer argument que rep. Els arguments, dins de funccions, es tracten de la mateixa manera que els arguments que es proporcionen a un ***```script```***.
 
 
 ## Interfícies d'usuari
@@ -212,7 +212,7 @@ OPTIONS="Hola Surt"
 ```
 Mostra el fitxer [f_interficiesUsuari.sh](scripts/f_interficiesUsuari.sh)
 
-Si executeu aquest **`script`**, veureu que és un record del programador per als menús basats en text. Probablement notareu que és molt semblant a la construcció **`for`**, només en lloc de fer un loop per cada "paraula" en $ OPTIONS, que demana a l'usuari.
+Si executeu aquest ***```script```***, veureu que és un record del programador per als menús basats en text. Probablement notareu que és molt semblant a la construcció **`for`**, només en lloc de fer un loop per cada "paraula" en $ OPTIONS, que demana a l'usuari.
 
 ### Ús de la línia de comandes
 
@@ -236,7 +236,7 @@ echo "OF= $OF"
 Mostra el fitxer [f_usLiniaComandes.sh](scripts/f_usLiniaComandes.sh)
 
 
-Per veure que fa aquest **`script`** farem servir el **`debugger`** de **`bash`**. **`bash -x`**
+Per veure que fa aquest ***```script```*** farem servir el **`debugger`** de **`bash`**. **`bash -x`**
 
 ```bash
 joanpardo@daw1sisinfuf01:~/bin/pract4$ bash -x f_usLiniaComandes.sh
