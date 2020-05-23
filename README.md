@@ -6,8 +6,8 @@ Es considerarà els següents escenaris.
 ## Escenari 1: Només es rep **un** paràmetre.
 Es considerarà, en aquest cas, que el **paràmetre** rebut serà el **nom del *nou* usuari**, i s’assumirà que aquest mateix **paràmetre** és el **nom del grup** al qual es vol que pertanyi el ***nou* usuari**.
 
-## Escenari 2: Se’n reben **dos paràmetres**, o **més de dos paràmetres**.
-En el cas en que es rebin **dos paràmetres**, o **més de dos paràmetres**, es considerarà que **el *primer* dels paràmetres** serà el **```nom  usuari```** a donar d’alta, i que **el *segon* dels *paràmetres***, és el **```nom del grup```** al qual es vol que pertanyi el ***```nou* usuari```**.
+## Escenari 2: Se’n reben ***dos* paràmetres**, o ***més* de dos paràmetres**.
+En el cas en que es rebin ***dos* paràmetres**, o ***més* de dos paràmetres**, es considerarà que **el *primer* dels paràmetres** serà el **```nom usuari```** a donar d’alta, i que **el *segon* dels *paràmetres***, és el **```nom del grup```** al qual es vol que pertanyi el **```nou usuari```**.
 
 
 # Codis de sortida
@@ -16,7 +16,7 @@ En el cas en que es rebin **dos paràmetres**, o **més de dos paràmetres**, es
 
 En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
 
-## Codi de Sortida => **`0`**
+## Codi de Sortida => ***`0`***
 En el cas en el que l’usuari ens faciliti tota la informació i no tinguem cap problema per donar d’alta l’usuari, cap paràmetre, llavors mostrarem un missatge informant de que tot ha anat correctament.
 
 I enviarem un Codi de Sortida amb un valor de **`0`**.
