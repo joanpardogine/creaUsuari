@@ -24,7 +24,7 @@ Cridar a una funció és com cridar a un altre programa, només cal escriure el 
    echo "no surto mai!"
 ```
 
-Mostra el fitxer [f_creaFuncions.sh](scripts/f_creaFuncions.sh)
+Mostra el fitxer [f_creaFuncions.sh](../scripts/f_creaFuncions.sh)
 
 De les línia **```2```** a la **```4```** es troba la funció **```f_acaba```**. I de la **```5```** a  la **```7```** la funció **```f_hola```**.
 
