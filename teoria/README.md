@@ -2,11 +2,16 @@
 
 Com en gairebé qualsevol llenguatge de programació, podeu utilitzar funcions per agrupar trossos de codi d’una manera més lògica o practicar l’art diví de la recursió.
 
-Declarar una funció només és qüestió d'escriure la funció ***`f_nomFuncio { codi }`***.
+Per declarar una funció només és qüestió d'escriure el nom de la funció
+```bash
+f_nomFuncio {
+  senetències de codi
+}
+```
 
-### Mostra de funció
+### Exemple de creació d'una funció
 
-Cridar a una funció és com cridar a un altre programa, només cal escriure el seu nom.
+Per cridar a una funció, només cal fer una crida a la funció, com si es volgués executar un altre programa.
 
 ```bash
 #!/bin/bash
@@ -26,13 +31,13 @@ Cridar a una funció és com cridar a un altre programa, només cal escriure el 
 
 Mostra el fitxer [f_creaFuncions.sh](../scripts/f_creaFuncions.sh)
 
-De les línia **```2```** a la **```4```** es troba la funció **```f_acaba```**. I de la **```5```** a  la **```7```** la funció **```f_hola```**.
+De les línia **```2```** a la **```4```** es troba la funció ***```f_acaba```***. I de la **```5```** a  la **```7```** la funció ***```f_hola```***.
 
 Si no esteu del tot segurs del que fa aquest ***```script```***, proveu-lo.
 
 Tingueu en compte que NO cal declarar una funció en cap ordre específic.
 
-En executar l'***```script```***, primer us n’adonareu: la funció s’anomena **```f_hola```**, en segon lloc la funció **```f_acaba```**, i el programa mai arriba a la línia **```10```**.
+En executar l'***```script```***, primer us n’adonareu: la funció s’anomena ***```f_hola```***, en segon lloc la funció ***```f_acaba```***, i el programa mai arriba a la línia **```10```**.
 
 ### Mostra de funció amb mostra de ***paràmetres***
 
