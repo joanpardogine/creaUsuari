@@ -11,6 +11,8 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
    * enviarem un **```Codi de Sortida```** **```0```**.
 --------
+[creaUsuari_v1.sh](scripts/creaUsuari_v1/creaUsuari_v1.sh)
+--------
 # Contingut de l'**```script```**
 ```bash
 #!/bin/bash
@@ -84,3 +86,5 @@ joanpardo@daw1sisinfuf01:~/bin/pract4$ echo $?
 joanpardo@daw1sisinfuf01:~/bin/pract4$
 ```
 -----------
+[creaUsuari_v1.sh](scripts/creaUsuari_v1/creaUsuari_v1.sh)
+--------
