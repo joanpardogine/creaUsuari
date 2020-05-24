@@ -41,7 +41,7 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
    * enviarem un **```Codi de Sortida```** **```0```**.
 
-### anar a [creaUsuari_v1](scripts/creaUsuari_v1)
+### anar a [Primera versió creaUsuari_v1](scripts/creaUsuari_v1)
 --------
 
 
