@@ -18,22 +18,22 @@ exit
 L’equivalent a un ***```exit```*** sense codi és la ***```exit $?```***, o el que és el mateix sortir sense escriure cap ***```exit```***.
 ```bash
 #!/bin/bash
-   COMANDA 1
+   comanda 1
    . . .
-   DARRERA COMANDA
+   darrera comanda
 # Sortirà amb l'estat de l'última comanda.
 exit $?
 ```
 
 ```bash
 #!/bin/bash
-   COMANDA 1
+   comanda 1
    . . .
-   DARRERA COMANDA
+   darrera comanda
 # Sortirà amb l'estat de l'última comanda.
 ```
 
-El paràmetre ***``$?````*** conté el ***```codi de sortida```*** de l’última ordre executada.
+El paràmetre ***```$?```*** conté el ***```codi de sortida```*** de l’última ordre executada.
 
 Després de finalitzar un ***```script```***, un ***```$?```*** (***```$?```*** des de la línia d’ordres es dóna el ***```codi de sortida```*** (l’***```estat de sortida```*** de l'***```script```***, és a dir, l’última ordre executada en el ***```script```***, que és, per convenció, ***```0```*** èxit o un nombre enter diferent de ***```0```*** en el rang ***```0```*** – ***```255```*** per error.
 
