@@ -10,8 +10,8 @@ f_nomFuncio {
 ```
 
 <details>
- <summary> desplegar :arrow_right: Exemple de creació i crida d'una funció.</summary>
-  
+ <summary>Exemple de creació i crida d'una funció.</summary>
+
 ### Exemple de creació i crida d'una funció.
 Per cridar a una **funció**, només cal fer una crida al ***nom de la funció***, com si es volgués executar un altre programa.
 
