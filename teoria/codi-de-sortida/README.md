@@ -37,4 +37,5 @@ El paràmetre ***``$?````*** conté el ***```codi de sortida```*** de l’últim
 
 Després de finalitzar un ***```script```***, un ***```$?```*** (***```$?```*** des de la línia d’ordres es dóna el ***```codi de sortida```*** (l’***```estat de sortida```*** de l'***```script```***, és a dir, l’última ordre executada en el ***```script```***, que és, per convenció, ***```0```*** èxit o un nombre enter diferent de ***```0```*** en el rang ***```0```*** – ***```255```*** per error.
 
-##Exemple
+## Exemple
+
