@@ -33,10 +33,11 @@ En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d�
 
 I enviarem un **```Codi de Sortida```** amb un valor de ***```2```***.
 
---------
 </details>
 
 ### anar a [Codi de sortida](teoria/codi-de-sortida)
+
+--------
 
 # Primera versió ***```creaUsuari_v1.sh```***
 
