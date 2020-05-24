@@ -15,7 +15,7 @@ En el cas en que es rebin **dos *paràmetres***, o **més de dos *paràmetres***
 <details>
   <summary> fes click per expandir.</summary>
 
-### anar a [Codi de sortida](teoria/codi-de-sortida)
+### anar a [Codi de sortida](teoria/codi-de-sortida) ***(teoria)***
 
 En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
 
@@ -36,7 +36,7 @@ I enviarem un **```Codi de Sortida```** amb un valor de ***```2```***.
 
 </details>
 
-### anar a [Codi de sortida](teoria/codi-de-sortida)
+### anar a [Codi de sortida](teoria/codi-de-sortida) ***(teoria)***
 
 --------
 
