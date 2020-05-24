@@ -11,6 +11,10 @@ En el cas en que es rebin **dos *paràmetres***, o **més de dos *paràmetres***
 
 
 # Codis de sortida
+
+### anar a [Codi de sortida](teoria/codi-de-sortida)
+--------
+
 En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
 
 ## Codi de Sortida => ***`0`***
