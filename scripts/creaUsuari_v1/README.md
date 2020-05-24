@@ -1,5 +1,17 @@
-# Contingut de l'**```script```**
+# Primera versió ***```creaUsuari_v1.sh```***
 
+Crearem un ***```script```*** que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
+
+És a dir:
+
+1. tornarà un missatge d’ajuda si no ens ha facilitat **cap *paràmetre*** i
+   * enviarem un **```Codi de Sortida```** **```1```**,
+1. tornarà un missatge indicant el nom d’usuari i el nom del grup si només ens ha facilitat **un *paràmetre*** i
+   * enviarem un **```Codi de Sortida```** **```0```**.
+1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
+   * enviarem un **```Codi de Sortida```** **```0```**.
+--------
+# Contingut de l'**```script```**
 ```bash
 #!/bin/bash
 # Nom:  creaUsuari_v1.sh
