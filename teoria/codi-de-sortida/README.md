@@ -39,3 +39,20 @@ Després de finalitzar un ***```script```***, un ***```$?```*** (***```$?```*** 
 
 ## Exemple
 
+```bash
+#!/bin/bash
+ 
+echo hola
+echo $?    # L'estat de sortida 0 tornat perquè la comanda s'ha executat correctament.
+ 
+lskdf      # Comandament no reconegut.
+echo $?    # L'estat de sortida que NO és zero: la comanda no s'ha pogut executar.
+ 
+echo
+ 
+exit 113   # Tornarà 113 al shell.
+           # Per verificar-ho, escriviu "echo $?" després que finalitzi el guió.
+ 
+# Per convenció, una "exit 0" indica un èxit,
+# + mentre que un valor de sortida diferent de zero significa un error o condició anòmala.
+```
