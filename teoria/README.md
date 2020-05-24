@@ -57,6 +57,6 @@ En executar l'***```script```***, primer us n’adonareu: la funció s’anomena
   f_acaba
    echo "no surto mai!"
 ```
-Mostra el fitxer [f_creaFunAmbParam.sh](scripts/f_creaFunAmbParam.sh)
+Mostra el fitxer [f_creaFunAmbParam.sh](../scripts/f_creaFunAmbParam.sh)
 
 Aquest ***```script```*** és gairebé idèntic a l’anterior. La diferència principal és el funcionament **```f_mostra```**. Aquesta funció imprimeix el primer argument que rep. Els arguments, dins de funccions, es tracten de la mateixa manera que els arguments que es proporcionen a un ***```script```***.
