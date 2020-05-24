@@ -72,3 +72,5 @@ Aquest segon ***```script f_creaFunAmbParam.sh```*** és gairebé idèntic a l�
 Com es pot veure, els ***arguments***, dins de les funcions es tracten de la mateixa manera que els ***arguments*** que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer ***arguments*** rebut,  ***```$2```*** fa referència al segon ***arguments*** rebut, i així succesivament.
 
 </details>
+
+--------
