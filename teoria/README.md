@@ -40,8 +40,13 @@ Si no esteu del tot segurs del que fa aquest ***```script```***, proveu-lo.
 Tingueu en compte que NO cal declarar les funcions en cap ordre específic.
 
 En executar l'***```script```***, primer us n’adonareu: la funció s’anomena ***```f_hola```***, en segon lloc la funció ***```f_acaba```***, i el programa mai arriba a la línia **```10```**.
+</details>
 
 --------
+
+<details>
+ <summary>Exemple de creació i crida d'una funció amb paràmetres.</summary>
+  
 ### Exemple de creació i crida d'una funció amb ***paràmetres***.
 
 ```bash
@@ -67,6 +72,3 @@ Aquest segon ***```script f_creaFunAmbParam.sh```*** és gairebé idèntic a l�
 Com es pot veure, els ***arguments***, dins de les funcions es tracten de la mateixa manera que els ***arguments*** que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer ***arguments*** rebut,  ***```$2```*** fa referència al segon ***arguments*** rebut, i així succesivament.
 
 </details>
-  
-  
---------
