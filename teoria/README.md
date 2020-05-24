@@ -9,6 +9,8 @@ f_nomFuncio {
 }
 ```
 
+--------
+
 <details>
  <summary>Exemple de creació i crida d'una funció.</summary>
 
