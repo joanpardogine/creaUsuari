@@ -9,8 +9,10 @@ f_nomFuncio {
 }
 ```
 
---------
-### Exemple de creació i crida d'una funció.
+<details>
+ <summary> pitja per desplegar
+   
+   ### Exemple de creació i crida d'una funció.   </summary>
 
 Per cridar a una **funció**, només cal fer una crida al ***nom de la funció***, com si es volgués executar un altre programa.
 
@@ -67,4 +69,7 @@ Per més info podeu visitar [echo man page](http://linuxcommand.org/lc3_man_page
 
 Com es pot veure, els ***arguments***, dins de les funcions es tracten de la mateixa manera que els ***arguments*** que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer ***arguments*** rebut,  ***```$2```*** fa referència al segon ***arguments*** rebut, i així succesivament.
 
+</details>
+  
+  
 --------
