@@ -1,8 +1,8 @@
 ## Creació de funcions
 
-Com en gairebé qualsevol llenguatge de programació, podeu utilitzar funcions per agrupar trossos de codi d’una manera més lògica o practicar l’art diví de la recursió.
+Com en gairebé qualsevol llenguatge de programació, podeu utilitzar funcions per agrupar trossos de codi d’una manera més lògica o practicar l’art diví :stuck_out_tongue_winking_eye: de la ***recursió***.
 
-Per declarar una funció només és qüestió d'escriure el nom de la funció
+Per declarar una **funció** només és qüestió d'escriure el ***nom de la funció***
 ```bash
 f_nomFuncio {
   senetències de codi
@@ -12,7 +12,7 @@ f_nomFuncio {
 --------
 ### Exemple de creació i crida d'una funció.
 
-Per cridar a una funció, només cal fer una crida a la funció, com si es volgués executar un altre programa.
+Per cridar a una **funció**, només cal fer una crida al ***nom de la funció***, com si es volgués executar un altre programa.
 
 ```bash
 #!/bin/bash
@@ -36,7 +36,7 @@ De les línia **```2```** a la **```4```** es troba la funció ***```f_acaba```*
 
 Si no esteu del tot segurs del que fa aquest ***```script```***, proveu-lo.
 
-Tingueu en compte que NO cal declarar una funció en cap ordre específic.
+Tingueu en compte que NO cal declarar les funcions en cap ordre específic.
 
 En executar l'***```script```***, primer us n’adonareu: la funció s’anomena ***```f_hola```***, en segon lloc la funció ***```f_acaba```***, i el programa mai arriba a la línia **```10```**.
 
