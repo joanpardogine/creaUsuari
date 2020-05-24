@@ -52,8 +52,7 @@ En executar l'***```script```***, primer us n’adonareu: la funció s’anomena
     echo -n $1 
   }
            
-  f_mostra "Hola"
-  f_mostra " món!"
+  f_mostra "Hola món!"
   f_acaba
    echo "no surto mai!"
 ```
