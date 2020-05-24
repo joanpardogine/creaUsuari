@@ -9,6 +9,7 @@ f_nomFuncio {
 }
 ```
 
+--------
 ### Exemple de creació i crida d'una funció.
 
 Per cridar a una funció, només cal fer una crida a la funció, com si es volgués executar un altre programa.
@@ -39,6 +40,7 @@ Tingueu en compte que NO cal declarar una funció en cap ordre específic.
 
 En executar l'***```script```***, primer us n’adonareu: la funció s’anomena ***```f_hola```***, en segon lloc la funció ***```f_acaba```***, i el programa mai arriba a la línia **```10```**.
 
+--------
 ### Exemple de creació i crida d'una funció amb ***paràmetres***.
 
 ```bash
