@@ -27,6 +27,7 @@ I enviarem un **```Codi de Sortida```** amb un valor d’***```1```***.
 En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d’un usuari que ja existeix, llavors mostrarem un missatge d’error en que comunicarem que l’usuari ja existeix.
 
 I enviarem un **```Codi de Sortida```** amb un valor de ***```2```***.
+
 --------
 # Primera versió ***```creaUsuari_v1.sh```***
 
@@ -43,7 +44,6 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 
 ### anar a [Primera versió creaUsuari_v1](scripts/creaUsuari_v1)
 --------
-
 
 # Creació de funcions
 <details>
