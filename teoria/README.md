@@ -58,4 +58,6 @@ En executar l'***```script```***, primer us n’adonareu: la funció s’anomena
 ```
 Fitxer: [f_creaFunAmbParam.sh](../scripts/f_creaFunAmbParam.sh)
 
-Aquest segon **```script *f_creaFunAmbParam.sh```*** és gairebé idèntic a l’anterior. La diferència principal la trobem en la funció  **```f_mostra```**. Aquesta funció mostra per pantalla (***```echo $1```***) el primer argument que rep. Els arguments, dins de les funcions es tracten de la mateixa manera que els arguments que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer paràmetre rebut,  ***```$2```*** fa referència al segon paràmetre rebut, i així succesivament. 
+Aquest segon ***```script f_creaFunAmbParam.sh```*** és gairebé idèntic a l’anterior. La diferència principal la trobem en la funció  ***```f_mostra```***. Aquesta funció només conté la comanda ***```echo $1```***, per tant, el que farà aquesta funció serà mostrar per pantalla el primer del ***arguments*** que rep.
+Com es pot veure, els ***arguments***, dins de les funcions es tracten de la mateixa manera que els ***arguments*** que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer ***arguments*** rebut,  ***```$2```*** fa referència al segon ***arguments*** rebut, i així succesivament. 
+--------
