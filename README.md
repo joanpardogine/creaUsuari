@@ -14,8 +14,6 @@ En el cas en que es rebin **dos *paràmetres***, o **més de dos *paràmetres***
 
 <details>
   <summary> fes click per expandir.</summary>
-
-### anar a [Codi de sortida](teoria/codi-de-sortida)
 --------
 
 En qualsevol dels casos, caldrà comprovar si el **nom del *nou* usuari** i el nom del grup rebut existeixen.
@@ -36,6 +34,10 @@ En el cas en el que l’usuari ens faciliti com a **nom del *nou* usuari** el d�
 I enviarem un **```Codi de Sortida```** amb un valor de ***```2```***.
 
 --------
+</details>
+
+### anar a [Codi de sortida](teoria/codi-de-sortida)
+
 # Primera versió ***```creaUsuari_v1.sh```***
 
 Crearem un ***```script```*** que ens mostrarà un missatge en funció dels paràmetres que ens hagi passat l’usuari. Tot indicant quins haguessin estat els valor que haguéssim fet servir com a nom d’usuari i com a nom de grup en cada cas.
@@ -49,7 +51,7 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
    * enviarem un **```Codi de Sortida```** **```0```**.
 
-</details>
+
 
 ### anar a [Primera versió creaUsuari_v1](scripts/creaUsuari_v1)
 --------
