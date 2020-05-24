@@ -61,7 +61,10 @@ En executar l'***```script```***, primer us n’adonareu: la funció s’anomena
 Fitxer: [f_creaFunAmbParam.sh](../scripts/f_creaFunAmbParam.sh)
 
 
-Aquest segon ***```script f_creaFunAmbParam.sh```*** és gairebé idèntic a l’anterior. La diferència principal la trobem en la funció  ***```f_mostra```***. Aquesta funció només conté la comanda ***```echo $1```***, per tant, el que farà aquesta funció serà mostrar per pantalla el primer del ***arguments*** que rep.
+Aquest segon ***```script f_creaFunAmbParam.sh```*** és gairebé idèntic a l’anterior. La diferència principal la trobem en la funció  ***```f_mostra```***. Aquesta funció només conté la comanda ***```echo -n $1```***, per tant, el que farà aquesta funció serà mostrar per pantalla el primer del ***arguments*** que rep. Cal recordar que el paràmetre ***```-n```*** a la comanda ***```echo```*** indica que no afegeixñi un salt de línea desprès d'executar la comanda la comanda ***```echo```***.
+
+Per més info podeu visitar [echo man page](http://linuxcommand.org/lc3_man_pages/echoh.html)
+
 Com es pot veure, els ***arguments***, dins de les funcions es tracten de la mateixa manera que els ***arguments*** que es proporcionen a un ***```script```***. És a dir, ***```$1```*** fa referència al primer ***arguments*** rebut,  ***```$2```*** fa referència al segon ***arguments*** rebut, i així succesivament.
 
 --------
