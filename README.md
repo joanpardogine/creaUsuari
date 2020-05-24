@@ -12,6 +12,9 @@ En el cas en que es rebin **dos *paràmetres***, o **més de dos *paràmetres***
 
 # Codis de sortida
 
+<details>
+  <summary> fes click per expandir.</summary>
+
 ### anar a [Codi de sortida](teoria/codi-de-sortida)
 --------
 
@@ -46,8 +49,12 @@ Crearem un ***```script```*** que ens mostrarà un missatge en funció dels par�
 1. tornarà un missatge indicant el nom d’usuari i el nom del grup si ens ha facilitat **dos *paràmetre*** i
    * enviarem un **```Codi de Sortida```** **```0```**.
 
+</details>
+
 ### anar a [Primera versió creaUsuari_v1](scripts/creaUsuari_v1)
 --------
+
+
 
 # Creació de funcions
 <details>
