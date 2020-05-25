@@ -197,3 +197,5 @@ get it from: https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
 
 
 </details>
+
+[Script creaUsuari.sh](scripts/creaUsuari.sh)
